@@ -4,10 +4,7 @@ package Kerim.Embel;
 public class About extends Me{
 
     public Workplace getCurrentWorkplace() {
-        return Workplace.builder()
-                .company("Garanti BBVA Technology")
-                .position("Associate Ⅰ Software Engineer")
-                .build();
+        return  new Workplace("Garanti BBVA Technology", "Associate Ⅰ Software Engineer");
     }
 
     public List<Skill> getSkills() {
@@ -28,13 +25,6 @@ public class About extends Me{
             );
     }
 
-    public List<Language> getLanguages() {
-        return List.of(
-                new Language("Turkish", "Native"),
-                new Language("English", "Fluent")
-        );
-    }
-
     public Education getEducation() {
         return Education.builder()
                 .school("Dokuz Eylul University")
@@ -43,7 +33,12 @@ public class About extends Me{
                 .graduation("2020")
                 .build();
     }
-
-
+    
+    public List<Language> getLanguages() {
+        return List.of(
+                new Language("Turkish", "Native"),
+                new Language("English", "Fluent")
+        );
+    }
 }
 ```
