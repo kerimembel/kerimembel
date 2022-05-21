@@ -1,8 +1,6 @@
 ```java
 package Kerim.Embel;
 
-import java.util.List;
-
 public class About extends Me{
 
     public Workplace getCurrentWorkplace() {
