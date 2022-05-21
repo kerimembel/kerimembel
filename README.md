@@ -4,7 +4,7 @@ package Kerim.Embel;
 public class About extends Me{
 
     public Workplace getCurrentWorkplace() {
-        return  new Workplace("Garanti BBVA Technology", "Associate Ⅰ Software Engineer");
+        return new Workplace("Garanti BBVA Technology", "Associate Ⅰ Software Engineer");
     }
 
     public List<Skill> getSkills() {
