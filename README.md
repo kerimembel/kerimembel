@@ -59,5 +59,4 @@ public class About extends Me {
         );
     }
 }
-
 ```
