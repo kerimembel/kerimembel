@@ -1,28 +1,42 @@
 ```java
 package Kerim.Embel;
 
-public class About extends Me{
+public class About extends Me {
 
     public Workplace getCurrentWorkplace() {
-        return new Workplace("Garanti BBVA Technology", "Associate Ⅰ Software Engineer");
+        return Workplace.builder()
+                .company("Garanti BBVA Technology")
+                .position("Associate Ⅰ Software Engineer").build();
     }
 
     public List<Skill> getSkills() {
         return List.of(
                 new Skill("Java - Spring Boot"),
                 new Skill("Python - Django, Flask"),
-                new Skill("SQL - MySQL, Oracle, NoSQL"),
                 new Skill("OOP - SOLID Principles"),
+                new Skill("SQL - MySQL, Oracle, NoSQL"),
+                new Skill("TDD - JUnit, Mockito, pytest"),
                 new Skill("Design Patterns - Creational, Structural, Behavioral"),
-                new Skill("Git - GitHub, Bitbucket"),
-                new Skill("Agile Methodologies - Scrum, Kanban"),
-                new Skill("Software Architecture - Monolith, Microservices"),
-                new Skill("Unit Test - JUnit, Mockito"),
-                new Skill("CI/CD - Jenkins"),
-                new Skill("Container Technologies - Docker Kubernetes, OpenShift"),
                 new Skill("Cloud Technologies - AWS"),
-                new Skill("TDD - JUnit, Mockito, TestNG")
-            );
+                new Skill("Resilience Patterns - Circuit Breaker, Retry, Timeout"),
+                new Skill("Architectural Styles - Microservices, Monolith"),
+                new Skill("Asynchronous Communication - RabbitMQ, Kafka"),
+                new Skill("Agile Methodologies - Scrum, Kanban"),
+                new Skill("Git - GitHub, Bitbucket"),
+                new Skill("CI/CD - Jenkins"),
+                new Skill("Container Technologies - Docker, Kubernetes, OpenShift")
+        );
+    }
+
+    public List<Language> getLanguages() {
+        return List.of(
+                Language.builder()
+                        .name("Turkish")
+                        .level("Native").build(),
+                Language.builder()
+                        .name("English")
+                        .level("Fluent").build()
+        );
     }
 
     public Education getEducation() {
@@ -30,15 +44,20 @@ public class About extends Me{
                 .school("Dokuz Eylul University")
                 .degree("Bachelor of Engineering")
                 .major("Computer Engineering")
-                .graduation("2020")
-                .build();
+                .graduation("2020").build();
     }
-    
-    public List<Language> getLanguages() {
+
+    public List<Interest> getInterests() {
         return List.of(
-                new Language("Turkish", "Native"),
-                new Language("English", "Fluent")
+                new Interest("Decentralized Applications"),
+                new Interest("Amateur Music Producing"),
+                new Interest("Traveling"),
+                new Interest("Camping"),
+                new Interest("Cycling"),
+                new Interest("Coding"),
+                new Interest("NFT")
         );
     }
 }
+
 ```
