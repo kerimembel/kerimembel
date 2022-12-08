@@ -5,8 +5,8 @@ public class About extends Me {
 
     public Workplace getCurrentWorkplace() {
         return Workplace.builder()
-                .company("Garanti BBVA Technology")
-                .position("Associate Ⅰ Software Engineer").build();
+                .company("Bayzat")
+                .position("Software Engineer").build();
     }
 
     public List<Interest> getInterests() {
