@@ -16,8 +16,7 @@ public class About extends Me {
                 new Interest("Traveling"),
                 new Interest("Camping"),
                 new Interest("Cycling"),
-                new Interest("Coding"),
-                new Interest("NFT")
+                new Interest("Coding")
         );
     }
 }
