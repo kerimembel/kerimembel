@@ -1,23 +1,23 @@
-```java
-package Kerim.Embel;
+```kotlin
+package Kerim.Embel
 
-public class About extends Me {
+class About : Me() {
 
-    public Workplace getCurrentWorkplace() {
+    fun getCurrentWorkplace(): Workplace {
         return Workplace.builder()
-                .company("Bayzat")
-                .position("Software Engineer").build();
+            .company("Bayzat")
+            .position("Software Engineer")
+            .build()
     }
 
-    public List<Interest> getInterests() {
-        return List.of(
-                new Interest("Decentralized Applications"),
-                new Interest("Amateur Music Producing"),
-                new Interest("Traveling"),
-                new Interest("Camping"),
-                new Interest("Cycling"),
-                new Interest("Coding")
-        );
+    fun getInterests(): List<Interest> {
+        return listOf(
+            Interest("Amateur Music Producing"),
+            Interest("Trading"),
+            Interest("Traveling"),
+            Interest("Camping"),
+            Interest("Coding")
+        )
     }
 }
 ```
