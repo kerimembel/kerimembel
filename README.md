@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kerimembel&label=Profile%20views&color=0eb410&style=plastic" alt="kerimembel" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kerimembel" alt="kerimembel" /></a> </p>
-
 - 🔭 I’m currently working on [Ninja](https://ananinja.com/sa/en), [Toolsy.io](https://toolsy.io), [CheffEye](https://cheffeye.com)
 
 <h3 align="left">Connect with me:</h3>
