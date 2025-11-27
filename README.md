@@ -5,34 +5,6 @@
 
 A passionate Software Engineer. I specialize in designing and developing highly scalable software. During my free time, I work on personal projects, continuously improve my skills, and explore new technologies.
 
-### 📈 GitHub Activity Graph:
-
-<p align="center">
-  <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
-         src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kerimembel&theme=aura"
-    />
-  <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
-         src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kerimembel&theme=aura"
-    />
-</p>
-
-<p align="center">
-  <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
-         src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kerimembel&theme=aura"
-    />
-  <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
-         src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kerimembel&theme=aura&utcOffset=3"
-    />
-</p>
-
 <p align="center">
  <a href="https://github.com/kerimembel">
     <img align="center"
