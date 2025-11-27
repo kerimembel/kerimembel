@@ -1,16 +1,62 @@
-<h1 align="center">Hi 👋, I'm Kerim</h1>
-<h3 align="center">A passionate Software Engineer. I specialize in designing and developing highly scalable software. During my free time, I work on personal projects, continuously improve my skills, and explore new technologies.</h3>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007E6E&height=120&section=header"/>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kerimembel&label=Profile%20views&color=0eb410&style=plastic" alt="kerimembel" /> </p>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=007E6E&size=35&center=true&vCenter=true&width=1000&lines=Hello,+I+am+Kerim;)](https://git.io/typing-svg)
 
-- 🔭 I’m currently working on [Ninja](https://ananinja.com/sa/en), [Toolsy.io](https://toolsy.io), [E-Ihracat Yolu](https://eihracatyolu.com/), [CheffEye](https://cheffeye.com), [Buradaydık](https://buradaydik.co)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/kerimmembel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kerimmembel" height="30" width="40" /></a>
+A passionate Software Engineer. I specialize in designing and developing highly scalable software. During my free time, I work on personal projects, continuously improve my skills, and explore new technologies.
+
+### 📈 GitHub Activity Graph:
+
+<p align="center">
+  <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="https://streak-stats.demolab.com?user=kerimembel&theme=aura&hide_border=false&border_radius=10" />
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kerimembel&theme=aura"
+    />
+  <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kerimembel&theme=aura"
+    />
+</p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kerimembel&show_icons=true&locale=en&layout=compact" alt="kerimembel" /></p>
+<p align="center">
+  <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kerimembel&theme=aura"
+    />
+  <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kerimembel&theme=aura&utcOffset=3"
+    />
+</p>
+
+<p align="center">
+ <a href="https://github.com/kerimembel">
+    <img align="center"
+         height="150em"
+         src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kerimembel&theme=aura"
+    />
+</p>
+
+<div align="center">
+  <a href = "mailto:kerimmembel1@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/kerim-embel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
+
+<div align="center">
+<br>
+<p align="center"><img align="center" src=https://komarev.com/ghpvc/?username=kerimembel&label=Profile%20views&color=0eb410&style=plastic /></p> 
+<br></div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007E6E&height=120&section=footer"/>
