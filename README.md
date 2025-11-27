@@ -11,14 +11,6 @@ A passionate Software Engineer. I specialize in designing and developing highly 
   <a href="https://github.com/kerimembel">
     <img align="center"
          height="150em"
-         src="https://streak-stats.demolab.com?user=kerimembel&theme=aura&hide_border=false&border_radius=10" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
          src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kerimembel&theme=aura"
     />
   <a href="https://github.com/kerimembel">
