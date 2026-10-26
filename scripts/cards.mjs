@@ -11,8 +11,13 @@ export const SHIPS = [
 
 export const REACH = [
   {id: 'mail', mark: '✉', label: 'kerim@rimabel.com', url: 'mailto:kerim@rimabel.com'},
-  {id: 'linkedin', mark: 'in', label: 'linkedin', url: 'https://www.linkedin.com/in/kerim-embel/'},
-  {id: 'x', mark: '@', label: 'kerimmembel', url: 'https://x.com/kerimmembel'},
+  {id: 'linkedin', mark: '↗', label: 'linkedin.com/in/kerim-embel', url: 'https://www.linkedin.com/in/kerim-embel/'},
+  {id: 'x', mark: '↗', label: 'x.com/kerimmembel', url: 'https://x.com/kerimmembel'},
+];
+
+export const PROMPTS = [
+  {id: 'ships', command: 'ls ~/ships'},
+  {id: 'reach', command: 'cat reach'},
 ];
 
 const MONO = "'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace";
@@ -75,13 +80,42 @@ export function chip({mark, label}) {
 `;
 }
 
+export function prompt({command}) {
+  const CW = 7.8;
+  const head = 'kerim@antalya ~ ❯ ';
+  const W = Math.round((head.length + command.length + 1) * CW + 34);
+  const H = 34;
+  const x = 17 + head.length * CW;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(command)}">
+  <style>
+    text{font:13px ${MONO};white-space:pre}
+    .cover{fill:#0a0a0a;animation:type ${(command.length * 0.06).toFixed(2)}s steps(${command.length}) .4s both}
+    .caret{fill:#eaa06b;animation:blink 1.1s steps(1) infinite}
+    @keyframes type{to{transform:translateX(${(command.length * CW).toFixed(1)}px)}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.cover{display:none}.caret{animation:none}}
+  </style>
+  <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="8" fill="#0a0a0a" stroke="#302c25"/>
+  <text x="17" y="22" textLength="${((head.length + command.length) * CW).toFixed(1)}" lengthAdjust="spacing"><tspan fill="#e7e3da">kerim@antalya</tspan> <tspan fill="#a09a8d">~</tspan> <tspan fill="#eaa06b">❯</tspan> <tspan fill="#e7e3da">${esc(command)}</tspan></text>
+  <rect class="cover" x="${x.toFixed(1)}" y="8" width="${(command.length * CW + 2).toFixed(1)}" height="19"/>
+  <rect class="caret" x="${(x + command.length * CW + 1).toFixed(1)}" y="9" width="${CW.toFixed(1)}" height="16"/>
+</svg>
+`;
+}
+
 export function markdown() {
   const cards = SHIPS.map((s) => {
     const img = `<img src="assets/ships/${s.id}.svg" width="32%" alt="${esc(`${s.name}: ${s.kind}`)}">`;
     return s.url ? `<a href="${s.url}">${img}</a>` : img;
   });
   const chips = REACH.map((r) => `<a href="${r.url}"><img src="assets/reach/${r.id}.svg" height="34" alt="${esc(r.label)}"></a>`);
-  return `<p>\n${cards.slice(0, 3).join('\n')}\n</p>\n<p>\n${cards.slice(3).join('\n')}\n</p>\n\n### reach\n\n<p>\n${chips.join('\n')}\n</p>\n`;
+  const head = (id, command) => `<img src="assets/prompts/${id}.svg" height="34" alt="kerim@antalya ~ ❯ ${command}">`;
+  return [
+    head('ships', 'ls ~/ships'),
+    `<p>\n${cards.slice(0, 3).join('\n')}\n</p>\n<p>\n${cards.slice(3).join('\n')}\n</p>`,
+    head('reach', 'cat reach'),
+    `<p>\n${chips.join('\n')}\n</p>`,
+  ].join('\n\n') + '\n';
 }
 
 async function main() {
@@ -93,6 +127,8 @@ async function main() {
     await writeFile(new URL(`assets/ships/${ship.id}.svg`, root), card(ship, icon));
   }
   for (const r of REACH) await writeFile(new URL(`assets/reach/${r.id}.svg`, root), chip(r));
+  await mkdir(new URL('assets/prompts/', root), {recursive: true});
+  for (const p of PROMPTS) await writeFile(new URL(`assets/prompts/${p.id}.svg`, root), prompt(p));
   console.log(markdown());
 }
 
