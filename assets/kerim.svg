@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="523" viewBox="0 0 880 523" role="img" aria-labelledby="t d">
+  <title id="t">kerim.ts, open in a terminal editor</title>
+  <desc id="d">Kerim Embel, tech lead by day and indie hustler by night, based in Antalya. 2699 commits in the last 12 months across 59 repositories, busiest in Oct 2026.</desc>
+  <style>
+    text{font:13px 'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace;fill:#cfc9bd;white-space:pre}
+    .n{fill:#6f6a60}.k{fill:#e7e3da}.s{fill:#d6ad7a}.c{fill:#a09a8d}.p{fill:#8f897d}.u{fill:#e7e3da}.a{fill:#eaa06b}.m{fill:#a09a8d}
+    .ln{opacity:0;animation:show 0s calc(.9s + var(--i) * 35ms) forwards}
+    .shell{animation:type .7s steps(13) .25s both}
+    .cover{fill:#0a0a0a;animation:type 1.6s steps(var(--n)) 2.1s both}
+    .caret{fill:#eaa06b;animation:blink 1.1s steps(1) 3.7s infinite;opacity:0}
+    .bar{fill:#c98d60;transform-box:fill-box;transform-origin:bottom;animation:grow .9s cubic-bezier(.2,.8,.2,1) calc(1.3s + var(--i) * 45ms) both}
+    .bar.top{fill:#f3b884}.bar.now{fill:#a37a5a}
+    .big{font:400 76px 'Instrument Serif','Iowan Old Style',Georgia,serif;fill:#eaa06b}
+    .fade{animation:fade .8s 2s both}
+    @keyframes show{to{opacity:1}}
+    @keyframes type{from{transform:translateX(0)}to{transform:translateX(var(--w))}}
+    @keyframes grow{from{transform:scaleY(0)}}
+    @keyframes fade{from{opacity:0}}
+    @keyframes blink{0%{opacity:1}50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.ln{opacity:1}.cover,.shell{display:none}.caret{opacity:1}}
+  </style>
+  <rect width="880" height="523" rx="10" fill="#0a0a0a"/>
+  <rect x=".5" y=".5" width="879" height="522" rx="10" fill="none" stroke="#302c25"/>
+  <text x="24" y="30" textLength="241.8" lengthAdjust="spacing"><tspan class="u">kerim@antalya</tspan> <tspan class="m">~</tspan> <tspan class="a">❯</tspan> <tspan class="u">nvim kerim.ts</tspan></text>
+  <rect class="shell" x="164.4" y="16" width="109.2" height="20" fill="#0a0a0a" style="--w:101.4px"/>
+  <path d="M24 44.5H856" stroke="#302c25"/>
+  <g>
+    <g class="ln" style="--i:0"><text class="n" x="44" y="77" text-anchor="end">1</text><text x="58" y="77" textLength="148.2" lengthAdjust="spacing"><tspan class="c">// ~/kerim/kerim.ts</tspan></text></g>
+    <g class="ln" style="--i:1"><text class="n" x="44" y="95.5" text-anchor="end">2</text><text x="58" y="95.5" textLength="319.8" lengthAdjust="spacing"><tspan class="k">import</tspan> <tspan class="p">{</tspan> curiosity<tspan class="p">,</tspan> ship <tspan class="p">}</tspan> <tspan class="k">from</tspan> <tspan class="s">'./life'</tspan><tspan class="p">;</tspan></text></g>
+    <g class="ln" style="--i:2"><text class="n" x="44" y="114" text-anchor="end">3</text></g>
+    <g class="ln" style="--i:3"><text class="n" x="44" y="132.5" text-anchor="end">4</text><text x="58" y="132.5" textLength="171.6" lengthAdjust="spacing"><tspan class="k">export</tspan> <tspan class="k">const</tspan> kerim <tspan class="p">=</tspan> <tspan class="p">{</tspan></text></g>
+    <g class="ln" style="--i:4"><text class="n" x="44" y="151" text-anchor="end">5</text><text x="58" y="151" textLength="171.6" lengthAdjust="spacing">  name<tspan class="p">:</tspan> <tspan class="s">'Kerim Embel'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:5"><text class="n" x="44" y="169.5" text-anchor="end">6</text><text x="58" y="169.5" textLength="179.4" lengthAdjust="spacing">  based<tspan class="p">:</tspan> <tspan class="s">'Antalya, TR'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:6"><text class="n" x="44" y="188" text-anchor="end">7</text><text x="58" y="188" textLength="148.2" lengthAdjust="spacing">  day<tspan class="p">:</tspan> <tspan class="s">'tech lead'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:7"><text class="n" x="44" y="206.5" text-anchor="end">8</text><text x="58" y="206.5" textLength="195.0" lengthAdjust="spacing">  night<tspan class="p">:</tspan> <tspan class="s">'indie hustler'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:8"><text class="n" x="44" y="225" text-anchor="end">9</text><text x="58" y="225" textLength="226.2" lengthAdjust="spacing">  email<tspan class="p">:</tspan> <tspan class="s">'kerim@rimabel.com'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:9"><text class="n" x="44" y="243.5" text-anchor="end">10</text><text x="58" y="243.5" textLength="78.0" lengthAdjust="spacing">  ships<tspan class="p">:</tspan> <tspan class="p">[</tspan></text></g>
+    <g class="ln" style="--i:10"><text class="n" x="44" y="262" text-anchor="end">11</text><text x="58" y="262" textLength="296.4" lengthAdjust="spacing">    <tspan class="s">'CutieCure'</tspan><tspan class="p">,</tspan> <tspan class="s">'CheffEye'</tspan><tspan class="p">,</tspan> <tspan class="s">'Pawnce'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:11"><text class="n" x="44" y="280.5" text-anchor="end">12</text><text x="58" y="280.5" textLength="327.6" lengthAdjust="spacing">    <tspan class="s">'Pocketframe'</tspan><tspan class="p">,</tspan> <tspan class="s">'Salon'</tspan><tspan class="p">,</tspan> <tspan class="s">'ViralSlides'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:12"><text class="n" x="44" y="299" text-anchor="end">13</text><text x="58" y="299" textLength="31.2" lengthAdjust="spacing">  <tspan class="p">]</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:13"><text class="n" x="44" y="317.5" text-anchor="end">14</text><text x="58" y="317.5" textLength="78.0" lengthAdjust="spacing">  rules<tspan class="p">:</tspan> <tspan class="p">[</tspan></text></g>
+    <g class="ln" style="--i:14"><text class="n" x="44" y="336" text-anchor="end">15</text><text x="58" y="336" textLength="280.8" lengthAdjust="spacing">    <tspan class="s">'Ship it, then make it pretty.'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:15"><text class="n" x="44" y="354.5" text-anchor="end">16</text><text x="58" y="354.5" textLength="241.8" lengthAdjust="spacing">    <tspan class="s">'Small tools, real users.'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:16"><text class="n" x="44" y="373" text-anchor="end">17</text><text x="58" y="373" textLength="249.6" lengthAdjust="spacing">    <tspan class="s">'Curiosity is the roadmap.'</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:17"><text class="n" x="44" y="391.5" text-anchor="end">18</text><text x="58" y="391.5" textLength="31.2" lengthAdjust="spacing">  <tspan class="p">]</tspan><tspan class="p">,</tspan></text></g>
+    <g class="ln" style="--i:18"><text class="n" x="44" y="410" text-anchor="end">19</text><text x="58" y="410" textLength="312.0" lengthAdjust="spacing">  <tspan class="c">// 2,699 commits in the last 12 months</tspan></text></g>
+    <g class="ln" style="--i:19"><text class="n" x="44" y="428.5" text-anchor="end">20</text><text x="58" y="428.5" textLength="15.6" lengthAdjust="spacing"><tspan class="p">}</tspan><tspan class="p">;</tspan></text></g>
+    <g class="ln" style="--i:20"><text class="n" x="44" y="447" text-anchor="end">21</text><text x="58" y="447" textLength="202.8" lengthAdjust="spacing"><tspan class="c">// busiest month: oct 2026</tspan></text></g>
+    <g class="ln" style="--i:21"><text class="n" x="44" y="465.5" text-anchor="end">22</text><text x="58" y="465.5" textLength="288.6" lengthAdjust="spacing"><tspan class="k">while</tspan> <tspan class="p">(</tspan>curiosity<tspan class="p">)</tspan> ship<tspan class="p">(</tspan>kerim<tspan class="p">.</tspan>next<tspan class="p">(</tspan><tspan class="p">)</tspan><tspan class="p">)</tspan><tspan class="p">;</tspan></text><rect class="cover" x="58" y="452.5" width="296.4" height="18.5" style="--n:37;--w:288.6px"/><rect class="caret" x="346.6" y="453.5" width="7.8" height="16"/></g>
+  </g>
+  <path d="M536.5 58V477" stroke="#302c25"/>
+  <text class="fade" style="animation-delay:1.1s" x="560" y="72"><tspan class="u">ships.log</tspan> <tspan class="m">commits per month</tspan></text>
+  <rect class="bar" style="--i:0" x="560.0" y="240" width="15" height="26"/><text class="n" x="567.5" y="284" text-anchor="middle">N</text>
+  <rect class="bar" style="--i:1" x="584.7" y="223" width="15" height="43"/><text class="n" x="592.2" y="284" text-anchor="middle">D</text>
+  <rect class="bar" style="--i:2" x="609.3" y="192" width="15" height="74"/><text class="n" x="616.8" y="284" text-anchor="middle">J</text>
+  <rect class="bar" style="--i:3" x="634.0" y="242" width="15" height="24"/><text class="n" x="641.5" y="284" text-anchor="middle">F</text>
+  <rect class="bar" style="--i:4" x="658.7" y="260" width="15" height="6"/><text class="n" x="666.2" y="284" text-anchor="middle">M</text>
+  <rect class="bar" style="--i:5" x="683.3" y="261" width="15" height="5"/><text class="n" x="690.8" y="284" text-anchor="middle">A</text>
+  <rect class="bar" style="--i:6" x="708.0" y="165" width="15" height="101"/><text class="n" x="715.5" y="284" text-anchor="middle">M</text>
+  <rect class="bar" style="--i:7" x="732.7" y="101" width="15" height="165"/><text class="n" x="740.2" y="284" text-anchor="middle">J</text>
+  <rect class="bar" style="--i:8" x="757.3" y="217" width="15" height="49"/><text class="n" x="764.8" y="284" text-anchor="middle">J</text>
+  <rect class="bar" style="--i:9" x="782.0" y="257" width="15" height="9"/><text class="n" x="789.5" y="284" text-anchor="middle">A</text>
+  <rect class="bar" style="--i:10" x="806.7" y="170" width="15" height="96"/><text class="n" x="814.2" y="284" text-anchor="middle">S</text>
+  <rect class="bar top" style="--i:11" x="831.3" y="98" width="15" height="168"/><text class="n" x="838.8" y="284" text-anchor="middle">O</text>
+  <g class="fade">
+    <text class="big" x="557" y="378">2,699</text>
+    <text class="m" x="560" y="406">commits in the last 12 months</text>
+    <text class="m" x="560" y="428"><tspan class="u">6</tspan> ships · <tspan class="u">59</tspan> repos · busiest <tspan class="u">oct 2026</tspan></text>
+  </g>
+  <rect y="489" width="880" height="24" fill="#1c1b18"/>
+  <text x="24" y="506"><tspan class="a">k/ kerim</tspan>  <tspan class="u">0:kerim.ts*</tspan>  <tspan class="a">1:ships ▶</tspan></text>
+  <text class="m" x="856" y="506" text-anchor="end">ships.log nov 2025 → oct 2026 · antalya</text>
+</svg>
