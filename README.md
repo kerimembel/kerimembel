@@ -1,26 +1,20 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007E6E&height=120&section=header"/>
+<img src="assets/kerim.svg" width="100%" alt="kerim.ts open in a terminal editor: Kerim Embel, tech lead by day, indie hustler by night, based in Antalya. Next to it, ships.log charts commits per month over the last year.">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=007E6E&size=35&center=true&vCenter=true&width=1000&lines=Hello,+I+am+Kerim;)](https://git.io/typing-svg)
+**Tech lead by day, indie hustler by night.** A little curious, always building. Based in Antalya.
 
+### ships
 
-A passionate Software Engineer. I specialize in designing and developing highly scalable software. During my free time, I work on personal projects, continuously improve my skills, and explore new technologies.
+| | | |
+|---|---|---|
+| **CutieCure** | AI nail art studio | [App Store](https://apps.apple.com/us/app/nail-art-design-cutiecure/id6753126162) · [Google Play](https://play.google.com/store/apps/details?id=app.cutiecure) · [cutiecure.app](https://www.cutiecure.app) |
+| **CheffEye** | AI recipe assistant | [App Store](https://apps.apple.com/app/cheffeye/id6502579584) · [Google Play](https://play.google.com/store/apps/details?id=com.cheffeye) · [cheffeye.com](https://cheffeye.com/en/) |
+| **Pawnce** | Real-world pet collecting | [App Store](https://apps.apple.com/app/pawnce-catch-cats-dogs/id6783541896) · [pawnce.app](https://pawnce.app/) |
+| **Pocketframe** | Mac app for the DJI Osmo Pocket | |
+| **CutieCure Salon** | Booking and salon management SaaS | [salon.cutiecure.app](https://salon.cutiecure.app) |
+| **ViralSlides** | AI marketing engine for app makers | [viralslides.app](https://www.viralslides.app) |
 
-<p align="center">
- <a href="https://github.com/kerimembel">
-    <img align="center"
-         height="150em"
-         src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kerimembel&theme=aura"
-    />
-</p>
+### reach
 
-<div align="center">
-  <a href = "mailto:kerimmembel1@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/kerim-embel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- </div>
+[kerim@rimabel.com](mailto:kerim@rimabel.com) · [LinkedIn](https://www.linkedin.com/in/kerim-embel/) · [X](https://x.com/kerimmembel)
 
-<div align="center">
-<br>
-<p align="center"><img align="center" src=https://komarev.com/ghpvc/?username=kerimembel&label=Profile%20views&color=0eb410&style=plastic /></p> 
-<br></div>
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007E6E&height=120&section=footer"/>
+<sub>ships.log is redrawn every morning from the last 12 months of my commits.</sub>
