@@ -4,17 +4,23 @@
 
 ### ships
 
-| | | |
-|---|---|---|
-| **CutieCure** | AI nail art studio | [App Store](https://apps.apple.com/us/app/nail-art-design-cutiecure/id6753126162) · [Google Play](https://play.google.com/store/apps/details?id=app.cutiecure) · [cutiecure.app](https://www.cutiecure.app) |
-| **CheffEye** | AI recipe assistant | [App Store](https://apps.apple.com/app/cheffeye/id6502579584) · [Google Play](https://play.google.com/store/apps/details?id=com.cheffeye) · [cheffeye.com](https://cheffeye.com/en/) |
-| **Pawnce** | Real-world pet collecting | [App Store](https://apps.apple.com/app/pawnce-catch-cats-dogs/id6783541896) · [pawnce.app](https://pawnce.app/) |
-| **Pocketframe** | Mac app for the DJI Osmo Pocket | |
-| **CutieCure Salon** | Booking and salon management SaaS | [salon.cutiecure.app](https://salon.cutiecure.app) |
-| **ViralSlides** | AI marketing engine for app makers | [viralslides.app](https://www.viralslides.app) |
+<p>
+<a href="https://www.cutiecure.app"><img src="assets/ships/cutiecure.svg" width="32%" alt="CutieCure: AI nail art studio"></a>
+<a href="https://cheffeye.com/en/"><img src="assets/ships/cheffeye.svg" width="32%" alt="CheffEye: AI recipe assistant"></a>
+<a href="https://pawnce.app/"><img src="assets/ships/pawnce.svg" width="32%" alt="Pawnce: Real-world pet collecting"></a>
+</p>
+<p>
+<img src="assets/ships/pocketframe.svg" width="32%" alt="Pocketframe: Mac app for the DJI Osmo Pocket">
+<a href="https://salon.cutiecure.app"><img src="assets/ships/salon.svg" width="32%" alt="CutieCure Salon: Booking and salon SaaS"></a>
+<a href="https://www.viralslides.app"><img src="assets/ships/viralslides.svg" width="32%" alt="ViralSlides: AI marketing engine"></a>
+</p>
 
 ### reach
 
-[kerim@rimabel.com](mailto:kerim@rimabel.com) · [LinkedIn](https://www.linkedin.com/in/kerim-embel/) · [X](https://x.com/kerimmembel)
+<p>
+<a href="mailto:kerim@rimabel.com"><img src="assets/reach/mail.svg" height="34" alt="kerim@rimabel.com"></a>
+<a href="https://www.linkedin.com/in/kerim-embel/"><img src="assets/reach/linkedin.svg" height="34" alt="linkedin"></a>
+<a href="https://x.com/kerimmembel"><img src="assets/reach/x.svg" height="34" alt="kerimmembel"></a>
+</p>
 
 <sub>ships.log is redrawn every morning from the last 12 months of my commits.</sub>
